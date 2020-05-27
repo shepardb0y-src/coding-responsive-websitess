@@ -1,0 +1,20 @@
+/*-----Mobile---*/
+
+body {
+  max-width: 767px;
+  color: green;
+}
+
+/* ----------- Tablets larger than 768px wide ----------- */
+@media all and  (min-width:768px) {
+	body {
+    color: red;
+  }
+}
+
+/* ----------- Monitors larger than 1200px wide ----------- */
+@media all and (min-width:1199px) {
+	body {
+    color:purple;
+  }
+}
